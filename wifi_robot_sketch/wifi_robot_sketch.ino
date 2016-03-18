@@ -1,4 +1,6 @@
 
+char ssid[] = "wifirobot"; // your network SSID (name)
+char pass[] = "";          // your network password
 
 void setup() {
   Serial.begin(115200);
@@ -11,7 +13,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   char response = checkForConection();
 
-  switch(response){
+  switch (response) {
     case '0':
       setMotorStop();
       Serial.println("stop");

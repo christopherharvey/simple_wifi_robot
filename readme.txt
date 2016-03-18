@@ -4,6 +4,10 @@ Christopher Harvey
 
 The core of this robot is the ESP8266-12 WiFi microchip. Useing this chip the robot connects to an exsiting wifi network and hosts a html page. That page contains the controls for the robot. The web client that loads the control page will comunicate back to the robot with http post requests.
 
+To use:
+start wifi network on phone called "wifirobot" no password. Turn on the robot. Check phone for connected ip addresses. Open ipaddress in web browser.
+
+
 TODO:
 Have the esp8266 host a wifi network instaed of connecting to one.
 Use web sockets instead of http post request

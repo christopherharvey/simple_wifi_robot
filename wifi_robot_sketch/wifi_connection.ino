@@ -1,8 +1,6 @@
 
 #include <ESP8266WiFi.h>
 
-char ssid[] = "harvey";      // your network SSID (name)
-char pass[] = "CFDOaAhvVxoS";   // your network password
 int keyIndex = 0;                 // your network key Index number (needed only for WEP)
 
 int status = WL_IDLE_STATUS;
